@@ -1,0 +1,327 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    flex-flow: column wrap;
+    font-family: 'Roboto Mono', monospace;
+}
+.header{
+    display: flex;
+    flex-flow:row wrap;
+}
+.header-box{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:1rem;
+    position:fixed;
+    background:white;
+    width:100%;
+    z-index: 1;
+}
+.head-image{
+    flex-grow: 1;
+    cursor: pointer;
+}
+.header-right{
+    padding:1rem;
+    align-self: flex-end;
+}
+.header-items{
+    margin:0.5rem 0.7rem auto 0.5rem;
+    font-weight:900;
+    font-size: 1rem;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .i1{
+        display:none;
+    }
+}
+.btn{
+    padding:0.3rem 1.5rem 0.3rem 1.5rem ;
+    color:white;
+    background-color:#b1eb34;
+    outline:none;
+    border:none;
+    border-radius:5px;
+}
+.container-1{
+    display:flex;
+    flex-flow:column nowrap;
+    background-image:url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    width:100%;
+    min-height: 100vh;
+    text-align:center;
+    justify-content: center;
+}
+.c1-tag{
+    font-size:3.1em;
+}
+.c1-desc{
+    font-size:1em;
+    margin-top:1rem;
+    padding:2rem;
+}
+.c2-content{
+    padding:2em;
+    color: white;
+    border:1px solid black;
+    min-height:100vh;
+    border: none;
+    width:auto;
+}
+.container-2{
+    display:flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    justify-content:space-evenly;
+}
+.c-1{
+    background-color:#34eb95;
+}
+.c-2{
+    background-color:#558709;
+}
+.c-3{
+    background-color:#d1a711;
+}
+.c-4{
+    background-color:#d11154;
+}
+#c2-tag{
+    font-size:2.5em;
+}
+@media(max-width:768px){
+    .container-2{
+        display:flex;
+        flex-flow: row wrap;
+        text-align: center;
+    }
+}
+.c-2-i{
+    font-size:5rem;
+    padding:3rem 1rem 2rem 1rem;
+}
+.container-3{
+    display:flex;
+    flex-flow:column nowrap;
+    height:100%;
+    width:100%;
+    text-align:center;
+}
+.c3-bg{
+    background-color:#faddd4; 
+}
+
+.c3-content{
+    display:flex;
+    flex-flow:row nowrap;
+    margin-top: 3rem;
+    height:min-content
+}
+.c3{
+    padding:2em;
+    text-align: center;
+}
+#c3-tag{
+    color: green;
+    font-size: 1.3rem;
+    margin-top:3rem;margin-bottom:0.5rem;
+}
+
+.c3-p{
+    color:grey;
+    font-size:1.6rem;
+    margin-top: 1rem;
+}
+
+.c3-h{
+    color:black;
+    font-size:1.5rem;
+    margin-bottom: 2rem;
+    margin-top:2rem;
+}
+@media(max-width:820px){
+    .c3-content{
+        display:flex;
+        flex-flow: row wrap;
+    }
+}
+.container-4{
+    display:flex;
+    flex-flow:column nowrap;
+    min-height:100vh;
+    width:100%;
+    text-align:center;
+    /* padding:1rem */
+}
+.c4{
+    background-color:whitesmoke;
+    box-shadow:  0.1px 0.5px grey;
+    border-radius: 2rem 0rem 2rem 2rem;
+    margin:2rem;
+    text-align:center;
+    padding:2rem;
+}
+
+.c4-p{
+    font-size: 1rem;
+    color:grey;
+}
+.c4-bg{
+    background-color:#faddd4;
+}
+.container-5{
+    display:flex;
+    flex-flow:row nowrap;
+    width:100%;
+    min-height:100vh;
+}
+.c5-img{
+    width: auto;
+    height:100vh;
+}
+.c5-content{
+    display:flex;
+    flex-flow:column wrap;
+    padding:3rem;
+    text-align: center;
+    background-image:url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+}
+.c3-tag{
+    margin:3rem auto 2rem auto
+}
+.inpt{
+    border:none;
+    padding: 1rem 1rem 1rem 0.8rem;
+    margin: 3rem 0.5rem 1rem 0.5rem;
+    box-shadow: 0.1px 0.5px grey;
+    width:70%;
+    outline:none;
+    border-radius: 5px;
+    align-self:center;
+}
+.subscribe{
+    align-self:center;
+    background:#fc1c03;
+    border:none;
+    padding: 0.5rem;
+    font: icon;
+    color:white;
+    width: 9rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius:3px;
+    outline:none;
+    opacity:0.2
+}
+::placeholder{
+font-size: 1rem;
+}
+@media(max-width:1000px){
+    .container-5{
+        display:flex;
+        flex-flow: row wrap;
+    }
+}
+.container-6{
+    display:flex;
+    flex-flow: row nowrap;
+    background:#edf7f7;
+    padding:3rem;
+    justify-content: space-evenly;
+    min-height: 50vh;
+
+}
+.c6-content{
+   display: flex;
+   flex-flow: column nowrap;
+   margin:2rem;
+   text-align: center;
+    /* padding:2rem; */
+}
+.c6-p{
+    color:#03fcf4;
+}
+@media(max-width:768px){
+    .container-6{
+        display:flex;
+        flex-flow: row wrap;
+    }
+    .c6-content{
+        display:flex;
+        flex-flow: row wrap; 
+    }
+}
+.container-7{
+    display: flex;
+    flex-flow: column nowrap;
+    margin:2rem;
+    text-align: center;
+}
+.c7-h{
+    font-size: 3em;
+    color: grey;
+    margin:2rem;
+}
+@media(max-width:768px){
+    .container-7{
+        display:flex;
+        flex-flow: row wrap;
+    }
+}
+iframe{
+    align-self: center;
+    margin-bottom:4rem;
+}
+.container-8{
+    display: flex;
+    flex-flow: row nowrap;
+    padding:1rem;
+    min-height:100vh;
+    justify-content: space-evenly;
+}
+.c8-form{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 1rem;
+}
+.c8-content{
+    margin:1rem;
+}
+.c8-form>input,textarea{
+    border:none;
+    padding: 1rem 1rem 1rem 0.8rem;
+    margin-top: 0.8rem;
+    border: 0.5px solid #dfebeb;
+    width:70%;
+    outline:none;
+    border-radius: 5px;
+    background-color:whitesmoke;
+}
+.c8-btn{
+    width:7rem;
+    margin-top: 0.8rem;
+}
+.c8-h{
+    margin-bottom:1rem;
+}
+.c8-h1{
+    margin-top:1rem;
+}
+@media(max-width:768px){
+    .container-8{
+        display:flex;
+        flex-flow: row wrap;
+    }
+}
+.container-9{
+    background:black;
+    color:white;
+     height:15vh;
+     
+     width:auto;
+     text-align: center;
+}
